@@ -74,7 +74,8 @@ The goal of this challenge is to create a simple mobile application that display
 
 3. **Get an API Key from OpenWeatherMap**:
    - Sign up on [OpenWeatherMap](https://openweathermap.org/api) and get your free API key.
-   - Create a `strings.xml` file in your resource folder to store the API key.
+   - Include API key in com.trackforce.weatherapp.data.repository.WeatherRepositoryImpl "WEATHER_API"
 
-   ```xml
-   <string name="api_key">YOUR_API_KEY_HERE</string>
+3. **Get an Google Maps Key from Google Console**:
+   - Include API key in the manifest file
+
